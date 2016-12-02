@@ -55,6 +55,11 @@ function generateRequestId() {
  *           style={styles.logo}
  *           source={{uri: 'http://facebook.github.io/react/img/logo_og.png'}}
  *         />
+ *
+ *         <Image
+ *           style={styles.logo}
+ *           source={{uri: 'file:///sdcard/images/image.jpg'}}
+ *         />
  *       </View>
  *     );
  *   },
